@@ -8,8 +8,9 @@ router.get('/:uuid',async (req,res)=>{
         return res.render('download',{error: "Link has been expired."});
     }
     const filePath=`${__dirname}/../${file.path}`;
-    console.log(filePath);
+    console.log("this is email download");
     res.download(filePath);
+    console.log("download complete");
 });
 
 module.exports = router;

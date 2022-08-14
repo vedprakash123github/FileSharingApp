@@ -2,6 +2,7 @@
 require('dotenv').config();
 const express=require('express');
 const path=require('path');
+const cors=require('cors');
 
 const app=express();
 const PORT=process.env.PORT || 3000;
@@ -12,6 +13,13 @@ app.use(express.json()); // to enable express server to accept the json data in 
 const DbConnect = require('./config/db');
 DbConnect();
 
+//cors
+
+const corsOptions={
+    origin:process.env.ALLOWED_CLIENTS.split(',')
+}
+
+app.use(cors(corsOptions));
 // Template Engine
 app.set('views',path.join(__dirname, './views'));
 
