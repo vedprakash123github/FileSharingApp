@@ -5,7 +5,7 @@ const path=require('path');
 const cors=require('cors');
 
 const app=express();
-const PORT=process.env.PORT || 3000;
+const PORT=process.env.PORT;
 app.use(express.static('public')); // to give server the information about the static part of the view ie. html and css content
 app.use(express.json()); // to enable express server to accept the json data in the request body.
 
