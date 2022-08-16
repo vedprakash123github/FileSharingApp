@@ -13,7 +13,7 @@ async function sendMail({from, to ,subject, text, html})
     });
     console.log('before info');
     let info=await transporter.sendMail({
-        from:`inShare <${from}>`,  
+        from:`Let's Share <${from}>`,  
        // to:to,
         to,    //if key and values are same in js then we can just write them as only once. eg. "to:to" can be written as "to" 
         subject:subject,
