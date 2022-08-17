@@ -66,7 +66,7 @@ router.post('/send',async (req,res)=>{
     sendMail({
         from: emailFrom,
         to: emailTo,
-        subject:"inShare file sharing",
+        subject:"Let's Share file shared via cloud",
         text:`${emailFrom} shared a file with you`,
         html: require('../services/emailTemplate')({
             emailFrom:emailFrom,

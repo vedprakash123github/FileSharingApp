@@ -131,7 +131,7 @@ module.exports = ({emailFrom,emailTo,downloadLink, size, expires}) => {
                                         </tr>
                                     </tbody>
                                     </table>
-                                    <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Thank you for using inShare service.</p>
+                                    <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Thank you for using Let's Share service.</p>
                                     <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Good luck! Hope it works.</p>
                                 </td>
                                 </tr>
@@ -153,7 +153,7 @@ module.exports = ({emailFrom,emailTo,downloadLink, size, expires}) => {
                             </tr>
                             <tr>
                             <td class="content-block powered-by" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #999999; text-align: center;">
-                                Powered by <a href="https://www.youtube.com/channel/UCo9xTRmg1SqQ5JSsA2fAgJw" style="color: #999999; font-size: 12px; text-align: center; text-decoration: none;">Coders Gyan</a>.
+                                Powered by <a style="color: #999999; font-size: 12px; text-align: center; text-decoration: none;">Vedprakash</a>.
                             </td>
                             </tr>
                         </table>
